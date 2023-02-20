@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyForum</title>
+    <script src="https://kit.fontawesome.com/8aaf8b985e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;500&family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <ul class="nav-list">
+                    <span class="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
+                    <li class="nav-item">
+                        <a href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="">Forum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="">Detail</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
+            <div class="brand">My Forum</div>
+        </div>
+
+        <!-- search box -->
+        <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="everything">everything</option>  
+                    <option value="titles">titles</option>  
+                    <option value="descriptions">description</option>  
+                </select>
+                <input type="text" name="q" id="search ...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- navigation -->
+        <div class="navigate">
+            <span><a href="#">My Forum - Forum</a> >> <a href="#">Random Topic</a></span>
+        </div>
+        
+
+    <footer>
+        <span>&copy; &nbsp;Hakim | All right Reserved</span>
+    </footer>
+    
+    <script src="main.js"></script>
+</body>
+</html>

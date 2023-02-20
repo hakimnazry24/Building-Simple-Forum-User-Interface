@@ -286,3 +286,61 @@ fotoer{
 .table-row .last-reply{
     flex: 15%;
 }
+
+/* pagination */
+.pagination{
+    padding: 20px;
+    font-size: 15px;
+}
+.pagination a{
+    color: white;
+    margin-inline: 5px; 
+    padding: 5px 10px;
+    border: solid 0.5px white;
+}
+.pagination a:hover{
+    opacity: 0.5;
+}
+
+/* navigation */
+.navigate{
+    margin-block: 20px;
+    font-weight: lighter;
+    font-size: 24px;
+}
+.navigate a{
+    color:white
+}
+.navigate a:hover{
+    color: #ff0042;
+    font-weight: bolder;
+}
+
+/* note */
+
+.note{
+    background-color: #111314;
+    padding: 20px;
+    display: block;
+}
+.note span{
+    font-size: 20px;
+    margin-block: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
