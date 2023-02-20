@@ -5,20 +5,162 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyForum</title>
+    <script src="https://kit.fontawesome.com/8aaf8b985e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;500&family=Titillium+Web&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <ul class="nav-list">
+                    <span class="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
+                    <li class="nav-item">
+                        <a href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="">Forum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="">Detail</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
+            <div class="brand">My Forum</div>
+        </div>
+
+        <!-- search box -->
+        <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="everything">everything</option>  
+                    <option value="titles">titles</option>  
+                    <option value="descriptions">description</option>  
+                </select>
+                <input type="text" name="q" id="search ...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    </header>
     <div class="container">
         <div class="subforum">
             <div class="subforum-title">
                 <h1>General Information</h1>
             </div>
             <div class="subforum-row">
-                <div class="subforum-icon">
-                    
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa-solid fa-car"></i>
+                </div>
+                <div class="subforum-description subforum-column ">
+                    <h1><a href="">Description Title:</a></h1>
+                    <p>Description content: just a random content</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 15 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last Post</a></b> by <a href="">User</a>   
+                    <br>
+                    on <small>22 Dec 2021</small>
                 </div>
             </div>
         </div>
+        <div class="subforum">
+            <div class="subforum-title">
+                <h1>General Information</h1>
+            </div>
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa-solid fa-car"></i>
+                </div>
+                <div class="subforum-description subforum-column ">
+                    <h1><a href="">Description Title:</a></h1>
+                    <p>Description content: just a random content</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 15 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last Post</a></b> by <a href="">User</a>   
+                    <br>
+                    on <small>22 Dec 2021</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa-solid fa-car"></i>
+                </div>
+                <div class="subforum-description subforum-column ">
+                    <h1><a href="">Description Title:</a></h1>
+                    <p>Description content: just a random content</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 15 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last Post</a></b> by <a href="">User</a>   
+                    <br>
+                    on <small>22 Dec 2021</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa-solid fa-car"></i>
+                </div>
+                <div class="subforum-description subforum-column ">
+                    <h1><a href="">Description Title:</a></h1>
+                    <p>Description content: just a random content</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 15 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last Post</a></b> by <a href="">User</a>   
+                    <br>
+                    on <small>22 Dec 2021</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa-solid fa-car"></i>
+                </div>
+                <div class="subforum-description subforum-column ">
+                    <h1><a href="">Description Title:</a></h1>
+                    <p>Description content: just a random content</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 15 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last Post</a></b> by <a href="">User</a>   
+                    <br>
+                    on <small>22 Dec 2021</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- forum info -->
+        <div class="forum-info">
+            <div class="chart">
+                My Forum- Stats &nbsp;<i class="fa fa-bar-chart"></i>
+            </div>
+            <div>
+                <span><u>5,369</u> Posts in <u>1,210</u> Topics by <u>45,214</u></span><br>
+                <span>Latest Post: <b><a href="#">Random Post</a></b> on 15 Dec 2021 by <a href="#">RandomUser</a></span>
+            </div>
+        </div>
+        
+        <footer>
+            <span>&copy; &nbsp;Hakim | All right Reserved</span>
+        </footer>
+    
+    
     </div>
 
     
